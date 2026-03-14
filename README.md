@@ -10,6 +10,7 @@ Kumpulan latihan Logika dan  Algoritma (***Logic & Algorithm***) menggunakan Jav
 
 ## 🆕Recent Exercises
 1. Palindrome Checker
+2. FizzBuzz 
 
 ## 📚 Topik yang dipelajari
 - String Manipulation : Case change, Trimming, Split & Join
