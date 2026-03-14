@@ -1,3 +1,9 @@
+/**
+ * Tantangan: Palindrome Checker
+ * Deskripsi: Mengecek apakah sebuah kata tetap sama jika dibalik.
+ * Topik: String
+ * Level: Easy
+ */
 const isPalindrome = str => {
     const text1 = str.toLowerCase().replace(/\s+/g, '')
     const textToArray = text1.split("").reverse()
