@@ -8,9 +8,9 @@ Kumpulan latihan Logika dan  Algoritma (***Logic & Algorithm***) menggunakan Jav
 - [Cara Menjalankan](#-cara-menjalankan)
 
 ## 🆕Recent Exercises
-1. [FizzBuzz](https://github.com/PressmenX/logic-exercises/blob/main/easy-exercises/FizzBuzz.js)
-2. [Palindrome Checker](https://github.com/PressmenX/logic-exercises/blob/main/easy-exercises/palindrome-checker(string).js)
- 
+1. [Leap Year Checker](https://github.com/PressmenX/logic-exercises/blob/main/easy-exercises/leap-year-checker.js)
+2. [Reverse Pyramid](https://github.com/PressmenX/logic-exercises/blob/main/easy-exercises/reverse-pyramid.js) 
+3. [Star Pyramid](https://github.com/PressmenX/logic-exercises/blob/main/easy-exercises/star-pyramid.js)
 
 ## 📚 Topik yang dipelajari
 - String Manipulation : Case change, Trimming, Split & Join
