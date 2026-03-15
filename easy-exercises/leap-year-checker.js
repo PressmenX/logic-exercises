@@ -1,13 +1,13 @@
 /*
-Challenge   : Reverse Pyramid 
+Challenge   : Leap Year Checker 
 Level       : Easy
-Concept     : Looping, String
+Concept     : Modulo, Conditional/Control flow
 Description : Tahun kabisat adalah tahun yang memiliki 366 hari (February punya 29 hari). 
             Sebuah tahun disebut kabisat jika memenuhi aturan berikut:
             - Habis dibagi 4 → kabisat
             - Tapi jika habis dibagi 100 → bukan kabisat
             - Kecuali jika habis dibagi 400 → kabisat lagi
-            Buatlah function isLeapYear(year) yang mengecek apakah tahun tersebut kabisat atau bukan.
+            Buat function isLeapYear(year) yang mengecek apakah tahun tersebut kabisat atau bukan.
 Example     :
             isLeapYear(2000) // true  → habis dibagi 400
             isLeapYear(1900) // false → habis dibagi 100, tapi tidak 400
