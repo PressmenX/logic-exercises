@@ -22,6 +22,7 @@ Kumpulan latihan Logika dan  Algoritma (***Logic & Algorithm***) menggunakan Jav
 - Object & Grouping: Penyimpanan data dengan key-value dan pengelompokan data berdasarkan kategori.
 - Functional Programming: Penggunaan reduce untuk agregasi, transformasi, dan grouping data sekaligus dalam satu iterasi.
 - Accumulator Pattern: Teknik membangun hasil secara bertahap menggunakan variabel penampung di setiap iterasi.
+- Temp Variable Pattern: Teknik menukar nilai dua variabel menggunakan variabel sementara sebagai penampung.
 
 ## 🚀Cara Menjalankan
 - Klik nama latihan pada daftar [Recent Exercises](#recent-exercises) atau buka folder lalu klik file latihan
