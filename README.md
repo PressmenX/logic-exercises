@@ -4,7 +4,7 @@ Kumpulan latihan Logika dan  Algoritma (***Logic & Algorithm***) menggunakan Jav
 
 ## 🚀 Daftar Isi
 - [Recent Exercises](#recent-exercises)
-- [Daftar Penguasaan](#daftar-penguasaan)
+- [Daftar Penguasaan](#-daftar-penguasaan)
 - [Cara Menjalankan](#cara-menjalankan)
 
 ## 🆕Recent Exercises
