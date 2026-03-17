@@ -9,5 +9,13 @@ const starSquare = n => {
 }
 
 starSquare(3)
-starSquare(5)
+// ***
+// ***
+// ***
 
+starSquare(5)
+// *****
+// *****
+// *****
+// *****
+// *****
