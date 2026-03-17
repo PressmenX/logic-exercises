@@ -3,13 +3,13 @@
 Kumpulan latihan Logika dan  Algoritma (***Logic & Algorithm***) menggunakan JavaScript. Repositori ini berfungsi sebagai catatan progres belajar dan referensi algoritma pribadi.
 
 ## 🚀 Daftar Isi
-- [Recent Exercises](#recent-exercises)
+- [Top Exercises](#top-exercises)
 - [Daftar Penguasaan](#-daftar-penguasaan)
 - [Cara Menjalankan](#cara-menjalankan)
 
-## 🆕Recent Exercises
-1. [Leap Year Checker](https://github.com/PressmenX/logic-exercises/blob/main/easy-exercises/leap-year-checker.js)
-2. [Reverse Pyramid](https://github.com/PressmenX/logic-exercises/blob/main/easy-exercises/reverse-pyramid.js) 
+## 🏆Top Exercises
+1. [Multiplication Table ](https://github.com/PressmenX/logic-exercises/blob/main/easy-exercises/multiplication-table.js)
+2. [Number Pyramid](https://github.com/PressmenX/logic-exercises/blob/main/easy-exercises/number-pyramid.js) 
 3. [Star Pyramid](https://github.com/PressmenX/logic-exercises/blob/main/easy-exercises/star-pyramid.js)
 
 ## 📚 Daftar Penguasaan
