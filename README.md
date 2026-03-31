@@ -3,14 +3,9 @@
 Kumpulan latihan Logika dan  Algoritma (***Logic & Algorithm***) menggunakan JavaScript. Repositori ini berfungsi sebagai catatan progres belajar dan referensi algoritma pribadi.
 
 ## 🚀 Daftar Isi
-- [Top Exercises](#top-exercises)
 - [Daftar Penguasaan](#-daftar-penguasaan)
 - [Cara Menjalankan](#cara-menjalankan)
 
-## 🏆Top Exercises
-1. [Multiplication Table ](https://github.com/PressmenX/logic-exercises/blob/main/easy-exercises/multiplication-table.js)
-2. [Number Pyramid](https://github.com/PressmenX/logic-exercises/blob/main/easy-exercises/number-pyramid.js) 
-3. [Star Pyramid](https://github.com/PressmenX/logic-exercises/blob/main/easy-exercises/star-pyramid.js)
 
 ## 📚 Daftar Penguasaan
 - Logic & Conditionals: Penggunaan if-else bertingkat, Guard Clauses, dan operator pembanding.

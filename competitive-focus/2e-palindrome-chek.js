@@ -3,7 +3,7 @@ const isPalindrome = (str) => {
   let newStr = "";
   for (let i = 0; i < str.length; i++) {
     newStr += oldStr[(str.length-1)-i]
-  }
+  } 
   return newStr === oldStr
 };
 
