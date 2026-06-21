@@ -4,21 +4,48 @@ Kumpulan latihan Logika dan Algoritma (**_Logic & Algorithm_**) menggunakan Java
 
 ## 📁 Struktur Folder
 
-- `src/competitive/easy/` — latihan easy
-- `src/competitive/medium/` — latihan medium
+- `src/easy/` — latihan easy
+- `src/medium/` — latihan medium
+- `src/hard/` — latihan hard
 - `industry-focus/` — latihan fokus industri
 - `test/` — file demo / testing
+- `add-new` — skrip membuat file latihan baru
 
 ## 🧩 Aturan Penamaan
 
 - dua digit urutan: `01`, `02`, `03`
 - level jelas di folder: `easy`, `medium`, `hard`
 - nama file deskriptif: `01-palindrome-check.js`, `02-reverse-string.js`
+- nama fungsi menggunakan camelCase, misalnya `palindromeCheck`
+
+## ⚙️ Perintah Generate Latihan
+
+Gunakan `add-new` untuk membuat file baru secara cepat.
+
+```bash
+add-new <level> <number> <exercise-name>
+```
+
+Contoh:
+
+```bash
+add-new e 03 palindrome-check
+```
+
+Ini akan membuat:
+
+- `src/easy/03-palindrome-check.js`
+
+Dan menambahkan template:
+
+- `function palindromeCheck() {}`
+- `module.exports = { palindromeCheck }`
 
 ## 🚀 Daftar Isi
 
 - [Struktur Folder](#-struktur-folder)
 - [Aturan Penamaan](#-aturan-penamaan)
+- [Perintah Generate Latihan](#-perintah-generate-latihan)
 - [Daftar Penguasaan](#-daftar-penguasaan)
 - [Cara Menjalankan](#cara-menjalankan)
 

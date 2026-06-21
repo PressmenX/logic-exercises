@@ -1,0 +1,9 @@
+{
+  "name": "logic-exercises",
+  "version": "1.0.0",
+  "description": "Generator script for logic exercise files",
+  "bin": {
+    "add-new": "./add-new"
+  },
+  "license": "MIT"
+}

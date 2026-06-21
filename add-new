@@ -1,0 +1,101 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+red_bg='\e[97;41m'
+green_bg='\e[97;42m'
+reset='\e[0m'
+
+usage() {
+  cat <<'EOF' >&2
+Usage: add-new <level> <number> <exercise-name>
+
+Arguments:
+  level         easy|e, medium|m, hard|h
+  number        exercise number (numeric)
+  exercise-name kebab-case name, e.g. palindrome-check
+
+Example:
+  add-new e 1 palindrome-check
+  -> src/easy/01-palindrome-check.js
+EOF
+}
+
+error() {
+  printf "%b ERROR %b %s\n" "$red_bg" "$reset" "$1" >&2
+}
+
+success() {
+  printf "%b SUCCES %b %s\n" "$green_bg" "$reset" "$1"
+}
+
+if [[ $# -lt 3 ]]; then
+  usage
+  exit 1
+fi
+
+level="$1"
+number="$2"
+shift 2
+exercise_name="$*"
+
+case "$level" in
+  e|easy)
+    level="easy"
+    ;;
+  m|medium)
+    level="medium"
+    ;;
+  h|hard)
+    level="hard"
+    ;;
+  *)
+    error "Invalid level: $level"
+    usage
+    exit 1
+    ;;
+esac
+
+if ! [[ "$number" =~ ^[0-9]+$ ]]; then
+  error "Number must be numeric: $number"
+  usage
+  exit 1
+fi
+
+if ! [[ "$exercise_name" =~ ^[a-z0-9]+(-[a-z0-9]+)*$ ]]; then
+  error "Exercise name must be kebab-case (lowercase letters, digits, dash): $exercise_name"
+  usage
+  exit 1
+fi
+
+number=$(printf "%02d" "$number")
+output_dir="src/$level"
+output_file="$output_dir/$number-$exercise_name.js"
+
+mkdir -p "$output_dir"
+
+if [[ -e "$output_file" ]]; then
+  error "File already exists: $output_file"
+  exit 1
+fi
+
+camel_name=$(printf "%s" "$exercise_name" | awk -F'-' '{
+  result = $1
+  for (i = 2; i <= NF; i++) {
+    part = $i
+    result = result toupper(substr(part, 1, 1)) substr(part, 2)
+  }
+  if (result ~ /^[0-9]/) result = "_" result
+  print result
+}')
+
+cat > "$output_file" <<EOF
+function $camel_name() {
+  // TODO: implement $exercise_name
+}
+
+module.exports = {
+  $camel_name,
+};
+EOF
+
+success "Created $output_file"
