@@ -90,12 +90,8 @@ camel_name=$(printf "%s" "$exercise_name" | awk -F'-' '{
 
 cat > "$output_file" <<EOF
 function $camel_name() {
-  // TODO: implement $exercise_name
+  
 }
-
-module.exports = {
-  $camel_name,
-};
 EOF
 
 success "Created $output_file"
