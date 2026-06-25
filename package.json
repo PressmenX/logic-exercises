@@ -3,7 +3,30 @@
   "version": "1.0.0",
   "description": "Generator script for logic exercise files",
   "bin": {
-    "add-new": "./add-new"
+    "add-new": "add-new"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PressmenX/logic-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PressmenX/logic-exercises/issues"
+  },
+  "homepage": "https://github.com/PressmenX/logic-exercises#readme",
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
 }

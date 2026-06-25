@@ -16,7 +16,7 @@ Arguments:
 
 Example:
   add-new e 1 palindrome-check
-  -> src/easy/01-palindrome-check.js
+  -> src/easy/01-palindrome-check.ts
 EOF
 }
 
@@ -69,7 +69,7 @@ fi
 
 number=$(printf "%02d" "$number")
 output_dir="src/$level"
-output_file="$output_dir/$number-$exercise_name.js"
+output_file="$output_dir/$number-$exercise_name.ts"
 
 mkdir -p "$output_dir"
 
@@ -89,7 +89,7 @@ camel_name=$(printf "%s" "$exercise_name" | awk -F'-' '{
 }')
 
 cat > "$output_file" <<EOF
-function $camel_name() {
+function $camel_name(): void {
   
 }
 EOF
