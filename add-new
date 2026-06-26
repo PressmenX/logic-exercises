@@ -89,9 +89,13 @@ camel_name=$(printf "%s" "$exercise_name" | awk -F'-' '{
 }')
 
 cat > "$output_file" <<EOF
-function $camel_name(): void {
+function $camel_name() {
   
 }
+
+console.log($camel_name());
+console.log($camel_name());
+console.log($camel_name());
 EOF
 
 success "Created $output_file"
